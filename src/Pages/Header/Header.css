@@ -1,0 +1,47 @@
+
+/* ===== NavBar ===== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin-right: 80px;
+}
+
+
+ul li a {
+    margin-left: 40px;
+    color: var(--red-dark);
+    text-decoration: none;
+    font-weight: var(--semi-bold);
+}
+
+a:hover {
+    border-bottom: 2px solid var(--default-color);
+}
+
+.button a {
+    background-color: var(--default-color);
+    padding: 1px 15px 1px 15px;
+    border-radius: 3px;
+    color: var(--red-lighter);
+    border: none;
+}
+
+.button a:hover {
+    background-color: var(--bordo);
+    transition: 250ms ease;
+}
+
+
+/* ===== Logo ===== */
+.logo {
+    text-decoration: none;
+    color:var(--bordo);
+    margin-left: 80px;
+}

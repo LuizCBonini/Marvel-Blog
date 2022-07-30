@@ -1,12 +1,12 @@
 import './App.css';
+import './Style/GlobalStyle.css'
+import FullPages from './Pages/FullPages';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
+    <>
+      <FullPages/>
+    </>
   );
 }
 
