@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+
+:root {
+
+    /* Colors */
+    --default-color: #EE1E25;
+    --bordo: #650F11;
+    --red-lighter: #FFF6F6;
+    --red-dark: #1B0000;
+
+    /* Font */
+    --Title:'Lobster', sans-serif;
+
+    /* Font wight */
+    --normal: 400;
+    --semi-bold: 500;
+    --bold: 700;
+}
