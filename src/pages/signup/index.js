@@ -1,5 +1,6 @@
 import Header from "../../component/header";
-import HeroLogin from "../../component/heroLogin";
+import HeroLogin from "../../component/heroSignup";
+
 
 const Signin = () => {
     return (

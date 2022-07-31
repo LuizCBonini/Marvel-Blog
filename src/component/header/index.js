@@ -5,18 +5,12 @@ import {
 
 import "./style.css"
 
-
-
-
 const Header = () => {
     return (
         <>
-
             <nav>
-            <Link to="/" className="logo">LOGO</Link>
-
+                <Link to="/" className="logo">LOGO</Link>
                 <ul>
-
                     <li>
                         <Link to="/">Home</Link>
                     </li>
