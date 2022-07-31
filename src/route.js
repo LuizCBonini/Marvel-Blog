@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/home";
+import Signup from "./pages/signup";
 import Login from "./pages/login";
 
 const RouteNavigation = () => {
@@ -14,6 +15,7 @@ const RouteNavigation = () => {
             <Router>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
+                    <Route exact path="/signup" element={<Signup />} />
                     <Route exact path="/login" element={<Login />} />
                 </Routes>
             </Router>
