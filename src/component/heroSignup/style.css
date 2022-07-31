@@ -1,0 +1,89 @@
+.background {
+    filter: brightness(100%);
+    background-image: url('../../assets/SET_DrStrange_02_cumprimido.webp');
+    height: 93vh;
+    min-height: 93vh;
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    width: 410px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Signup {
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+}
+
+.Signup form input {
+    background: transparent;
+    opacity: 0.8;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    /* text-align: left; */
+    letter-spacing: 0.5px;
+    color: #313131;
+    opacity: 0.7;
+    width: 430px;
+}
+
+.Signup form input::placeholder {
+    display: block;
+    padding-left: 25px;
+}
+
+.Signup form input:focus {
+    outline: none;
+}
+
+.Signup form .box {
+    display: flex;
+    background: #FAFAFA;
+    opacity: 0.8;
+    margin: 25px 0;
+    text-align: center;
+    width: 430px;
+}
+
+
+.Signup form .box>label {
+    width: 95px;
+    background: #EE1E25;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: #FFF7F7;
+    transform: rotate(0.48deg);
+    margin: 15px 10px;
+    padding: 10px 0;
+}
+
+.Signup form input[type=submit] {
+    width: 85px;
+    height: 25px;
+    background: #EE1E25;
+    border: 2px solid #FFF7F7;
+    border-radius: 3px;
+    text-align: center;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFF7F7;
+}
